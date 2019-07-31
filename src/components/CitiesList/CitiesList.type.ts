@@ -2,7 +2,7 @@ export interface CitiesListState {
   cities: City[];
 }
 
-interface City {
+export interface City {
   id: number;
   created: string;
   modified: string;
