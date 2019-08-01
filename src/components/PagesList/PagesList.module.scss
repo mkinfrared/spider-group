@@ -1,5 +1,6 @@
 .pagesList {
   .results {
+    padding: 40px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 20px;
@@ -9,4 +10,10 @@
     display: flex;
     justify-content: center;
   }
+}
+
+.modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
