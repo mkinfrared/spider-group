@@ -4,9 +4,10 @@ export interface PagesListState {
   next: null | string;
   previous: null | string;
   results: Result[];
+  modalOpen: boolean;
 }
 
-interface Result {
+export interface Result {
   id: number;
   city: City;
   created: string;

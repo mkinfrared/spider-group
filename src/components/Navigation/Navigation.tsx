@@ -29,13 +29,13 @@ class Navigation extends React.Component<RouteComponentProps, NavigationState> {
           centered
         >
           <Tab
-            label="Item One"
+            label="Cities"
             component={Link}
             to={LINKS.HOME}
             value={LINKS.HOME}
           />
           <Tab
-            label="Item Two"
+            label="Pages"
             component={Link}
             to={LINKS.PAGES}
             value={LINKS.PAGES}
